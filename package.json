@@ -1,0 +1,12 @@
+{
+  "name": "repo-security-auditor",
+  "version": "1.0.0",
+  "description": "Audit repository security settings",
+  "main": "src/index.js",
+  "bin": { "gh-security": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "security"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
